@@ -1,0 +1,24 @@
+﻿# Frontend
+streamlit>=1.50,<2
+
+# LangChain Core / LCEL orchestration
+langchain>=0.3,<2
+langchain-core>=0.3,<2
+langchain-text-splitters>=0.3,<2
+
+# Vector database + local embeddings (no API key required)
+chromadb>=0.5,<2
+langchain-chroma>=0.2,<2
+langchain-huggingface>=0.3,<2
+sentence-transformers>=3.0,<7
+
+# LLM transports: hosted APIs + local Ollama
+langchain-google-genai>=2.0,<5
+langchain-openai>=0.2,<2
+langchain-ollama>=0.2,<2
+
+# Configuration, validation, tests, lint
+python-dotenv>=1.0,<2
+pydantic>=2.6,<3
+pytest>=8.0,<10
+ruff>=0.6,<1

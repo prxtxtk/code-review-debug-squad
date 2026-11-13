@@ -1,0 +1,19 @@
+[theme]
+primaryColor = "#2f5fc7"
+backgroundColor = "#f7f7f8"
+secondaryBackgroundColor = "#ffffff"
+textColor = "#1d2433"
+font = "sans serif"
+
+[server]
+headless = true
+runOnSave = false
+# Avoid Streamlit's dependency scanner importing optional transformers vision
+# modules (which require torchvision that this project does not need).
+fileWatcherType = "none"
+
+[browser]
+gatherUsageStats = false
+
+[client]
+toolbarMode = "minimal"
